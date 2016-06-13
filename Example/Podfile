@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PartialScrollView_Example' do
+  pod 'PartialScrollView', :path => '../'
+
+  target 'PartialScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
