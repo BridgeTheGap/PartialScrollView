@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PartialScrollView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PartialScrollView.'
+  s.summary          = 'A scroll view whose scroll area is customizable.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+PartialScrollView, like its name, allows the user to customize the scrollable area,
+which solves the problem of programmers who wanted a scroll view-like behavior,
+but only for a certain part of their views.
+
+Instead of using a pan gesture recognizer for the small view, use the scroll view
+like you normally would, but just don't forget to set the scrollable area.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/PartialScrollView'
+  s.homepage         = 'https://github.com/BridgeTheGap/PartialScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Joshua Park' => 'joshuaparkwm@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/PartialScrollView.git', :tag => s.version.to_s }
+  s.author           = { 'Josh Woomin Park' => 'joshuaparkwm@gmail.com' }
+  s.source           = { :git => 'https://github.com/BridgeTheGap/PartialScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

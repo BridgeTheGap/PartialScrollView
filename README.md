@@ -1,6 +1,6 @@
 # PartialScrollView
 
-[![CI Status](http://img.shields.io/travis/Joshua Park/PartialScrollView.svg?style=flat)](https://travis-ci.org/Joshua Park/PartialScrollView)
+[![CI Status](http://img.shields.io/travis/Josh Woomin Park/PartialScrollView.svg?style=flat)](https://travis-ci.org/Josh Woomin Park/PartialScrollView)
 [![Version](https://img.shields.io/cocoapods/v/PartialScrollView.svg?style=flat)](http://cocoapods.org/pods/PartialScrollView)
 [![License](https://img.shields.io/cocoapods/l/PartialScrollView.svg?style=flat)](http://cocoapods.org/pods/PartialScrollView)
 [![Platform](https://img.shields.io/cocoapods/p/PartialScrollView.svg?style=flat)](http://cocoapods.org/pods/PartialScrollView)
@@ -22,7 +22,7 @@ pod "PartialScrollView"
 
 ## Author
 
-Joshua Park, joshuaparkwm@gmail.com
+Josh Woomin Park, joshuaparkwm@gmail.com
 
 ## License
 

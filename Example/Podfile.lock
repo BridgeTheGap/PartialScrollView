@@ -1,0 +1,16 @@
+PODS:
+  - PartialScrollView (0.1.0)
+
+DEPENDENCIES:
+  - PartialScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  PartialScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PartialScrollView: d385741f495e98a2dc703ba09c5a49088b594091
+
+PODFILE CHECKSUM: f9846ec1d0ef6cd7e11e5614d16e22ce07cf5575
+
+COCOAPODS: 1.0.0.beta.2
