@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import PartialScrollView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var handleView: UIView!
+    @IBOutlet weak var scrollView: PartialScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tableView = UITableView(frame: self.view.bounds)
+        tableView.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,5 +28,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // MARK: - Scroll view
+    
+    
+    
 }
 

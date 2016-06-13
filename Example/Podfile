@@ -5,7 +5,6 @@ target 'PartialScrollView_Example' do
 
   target 'PartialScrollView_Tests' do
     inherit! :search_paths
-
     
   end
 end

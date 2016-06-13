@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		034CFD3902B67296C099979E5F81A3E0 /* PartialScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1CE7559ADC42783B0601495F97FAD7E /* PartialScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11B8CC3CCFA8693AEBFEBA39E8173CEB /* Pods-PartialScrollView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B346C3870F6AC5F0FE4408C456B61B /* Pods-PartialScrollView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23FF33AED576330FDCF40EF6ED25851D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3285BBE1095C0513E936B636401FFAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		36D028CE48FFAA2AA34E9C02858548B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		4A4230DCA4461EBFBB3320ECD0DC3438 /* Pods-PartialScrollView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06546F1E970D366F425AED87B6CFC84 /* Pods-PartialScrollView_Tests-dummy.m */; };
-		50C54C00A23B0DECF4DA9BF6EEED1037 /* PartialScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C85880FD85F81072A5A782B870CF9849 /* PartialScrollView-dummy.m */; };
+		86A2E6D412366BAE081FDAD129756BEE /* PartialScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C85880FD85F81072A5A782B870CF9849 /* PartialScrollView-dummy.m */; };
 		8F9F596245006DC35F75F4834B163ACF /* Pods-PartialScrollView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11344117100580D0D19B2D58B68B494E /* Pods-PartialScrollView_Example-dummy.m */; };
-		9CC84FB32E4AE9D461D127AC2F08EF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		B307A08D4901DE995269BF2BB4E0DED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
-		B8D06B8DB3A9A8B0862F2088A304B15C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		94D57DA50FFF05B0B1F980DEDAADACF1 /* PartialScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFDF8BF331DE2867406D89CF8B4EA1A /* PartialScrollView.swift */; };
 		C97B52FBADACA2AB3B80A485BB552DDE /* Pods-PartialScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FC33B20EC7569AD09D725B54344935 /* Pods-PartialScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -36,25 +37,26 @@
 		1E70E5362BFC5803F8C193B2A4729F57 /* Pods-PartialScrollView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PartialScrollView_Example.modulemap"; sourceTree = "<group>"; };
 		2402593799257966645785F34BD708F8 /* Pods_PartialScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartialScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		318407661E48B66F848B1F738E775633 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		435E8799FE8BD35C6B3CCEEF0EAA5586 /* Pods-PartialScrollView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PartialScrollView_Tests.modulemap"; sourceTree = "<group>"; };
 		4F7EF147D042492D08D23843870574C7 /* PartialScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PartialScrollView.xcconfig; sourceTree = "<group>"; };
 		4FD3EC326C45C2772476DDF1B4CDAA99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DA82974E3E4365A9565F215814BC670 /* Pods-PartialScrollView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartialScrollView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6DFDF8BF331DE2867406D89CF8B4EA1A /* PartialScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PartialScrollView.swift; sourceTree = "<group>"; };
 		77D8CC471D769431BF35022E6F028358 /* PartialScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PartialScrollView-prefix.pch"; sourceTree = "<group>"; };
 		7C9D5A94C6EBD058E17A74FDB8E41203 /* PartialScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PartialScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D247C670CE987DAB5E307265A7F96D /* Pods-PartialScrollView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartialScrollView_Tests-resources.sh"; sourceTree = "<group>"; };
 		8EA6515A61E7D29E27225C036BC7F045 /* Pods-PartialScrollView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartialScrollView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4B346C3870F6AC5F0FE4408C456B61B /* Pods-PartialScrollView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PartialScrollView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B013211E403274A49B38AB19C04AFA76 /* Pods-PartialScrollView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PartialScrollView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5C9B91EF2805F43EB74E13E4FB54B0E /* Pods-PartialScrollView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartialScrollView_Example-resources.sh"; sourceTree = "<group>"; };
 		B5FC33B20EC7569AD09D725B54344935 /* Pods-PartialScrollView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PartialScrollView_Example-umbrella.h"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BC5DC8D51FAEDED85D5E6158074259B7 /* Pods-PartialScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartialScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD3A1744AAD7CB6A5DAD7C83FBE7FA38 /* Pods-PartialScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartialScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BD58E60750483408E37D3B1F074177C5 /* Pods-PartialScrollView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PartialScrollView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C06546F1E970D366F425AED87B6CFC84 /* Pods-PartialScrollView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PartialScrollView_Tests-dummy.m"; sourceTree = "<group>"; };
 		C85880FD85F81072A5A782B870CF9849 /* PartialScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PartialScrollView-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D4945B63CBC773E23A24FB8CE3C65624 /* Pods-PartialScrollView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PartialScrollView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D62BE9BDC5768176CECEEABD66993A89 /* Pods-PartialScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PartialScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF1CC511B9EEA64291939C69F6209EA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CC84FB32E4AE9D461D127AC2F08EF58 /* Foundation.framework in Frameworks */,
+				36D028CE48FFAA2AA34E9C02858548B1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8D06B8DB3A9A8B0862F2088A304B15C /* Foundation.framework in Frameworks */,
+				3285BBE1095C0513E936B636401FFAB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B307A08D4901DE995269BF2BB4E0DED5 /* Foundation.framework in Frameworks */,
+				23FF33AED576330FDCF40EF6ED25851D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,19 +120,20 @@
 			path = "Target Support Files/Pods-PartialScrollView_Tests";
 			sourceTree = "<group>";
 		};
-		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+		3051650E77C12B433D16017A8D0D5C29 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		46C329C0118A01933D3C0DAEC2A39139 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
+				6DFDF8BF331DE2867406D89CF8B4EA1A /* PartialScrollView.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6485B8C71968BEDCE0BEAEAC7A629ADC /* Support Files */ = {
@@ -168,7 +171,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				8625FED8CCC75D2E2DE4A353333FC273 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				909D7635D316DFAB1E7D50026E764820 /* Products */,
@@ -206,7 +209,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,7 +217,7 @@
 		C3BD3C28663A1C5E5BEAED1E2FA78E66 /* PartialScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				46C329C0118A01933D3C0DAEC2A39139 /* Classes */,
+				3051650E77C12B433D16017A8D0D5C29 /* Classes */,
 			);
 			path = PartialScrollView;
 			sourceTree = "<group>";
@@ -288,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F95AE42CB556208B53FECD5C018FDC7B /* Build configuration list for PBXNativeTarget "PartialScrollView" */;
 			buildPhases = (
-				89DA519AC61358CF7F85825C76DA95A4 /* Sources */,
+				EFFC5763FAE291A5EE4947197B6D87B3 /* Sources */,
 				BAC6F273D2C299AADCCF5005FACABF89 /* Frameworks */,
 				3F4222B4B7AEAE8585BEC84CC33F89BE /* Headers */,
 			);
@@ -307,7 +310,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -338,19 +341,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89DA519AC61358CF7F85825C76DA95A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50C54C00A23B0DECF4DA9BF6EEED1037 /* PartialScrollView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8DF18DB010119CED8155BC881CD296A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4A4230DCA4461EBFBB3320ECD0DC3438 /* Pods-PartialScrollView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFC5763FAE291A5EE4947197B6D87B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A2E6D412366BAE081FDAD129756BEE /* PartialScrollView-dummy.m in Sources */,
+				94D57DA50FFF05B0B1F980DEDAADACF1 /* PartialScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,43 +370,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13C099CED7168094991653DF5090367C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18FA784A69BE2DE6A8397ABBA8F2223E /* Pods-PartialScrollView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartialScrollView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartialScrollView_Example/Pods-PartialScrollView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PartialScrollView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		372FF5048FF42C3A7A18B70A30D785C1 /* Release */ = {
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -436,6 +408,39 @@
 			};
 			name = Release;
 		};
+		13C099CED7168094991653DF5090367C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18FA784A69BE2DE6A8397ABBA8F2223E /* Pods-PartialScrollView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PartialScrollView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PartialScrollView_Example/Pods-PartialScrollView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PartialScrollView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		58214AB4D08EE0ED68E620289DEF6887 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F7EF147D042492D08D23843870574C7 /* PartialScrollView.xcconfig */;
@@ -465,10 +470,44 @@
 			};
 			name = Release;
 		};
-		70F0378D63DE3D2DCC739550669BD46A /* Debug */ = {
+		CFE9F0E9F7F7CFBB84AFA52DBE5A94C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E462620AD0FD1B202B2C499E3D4F5C8 /* Pods-PartialScrollView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PartialScrollView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PartialScrollView_Tests/Pods-PartialScrollView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PartialScrollView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -505,39 +544,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		CFE9F0E9F7F7CFBB84AFA52DBE5A94C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E462620AD0FD1B202B2C499E3D4F5C8 /* Pods-PartialScrollView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PartialScrollView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PartialScrollView_Tests/Pods-PartialScrollView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PartialScrollView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D45A2CBF8D4B865AF07ED89E82E35BBF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -642,8 +648,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				70F0378D63DE3D2DCC739550669BD46A /* Debug */,
-				372FF5048FF42C3A7A18B70A30D785C1 /* Release */,
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

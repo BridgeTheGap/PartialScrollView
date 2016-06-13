@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="PartialScrollView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,54 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVp-gL-rBR">
+                                <rect key="frame" x="254" y="516" width="92" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gD0-94-ciY">
+                                <rect key="frame" x="560" y="236" width="40" height="128"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="WMY-bc-TKe"/>
+                                    <constraint firstAttribute="height" constant="128" id="lN2-hf-aWC"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XMM-kb-2Ao">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="spk-5G-4Ui"/>
+                                </connections>
+                            </scrollView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="left.png" translatesAutoresizingMaskIntoConstraints="NO" id="Oyr-3p-zeU">
+                                <rect key="frame" x="564" y="284" width="32" height="32"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AVp-gL-rBR" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7ce-ra-NmZ"/>
+                            <constraint firstItem="XMM-kb-2Ao" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="7wr-29-ZCO"/>
+                            <constraint firstAttribute="trailing" secondItem="gD0-94-ciY" secondAttribute="trailing" id="Bm9-Z8-dBt"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="AVp-gL-rBR" secondAttribute="bottom" constant="63" id="HRR-rA-IM4"/>
+                            <constraint firstItem="XMM-kb-2Ao" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="WO8-3s-Oz4"/>
+                            <constraint firstItem="gD0-94-ciY" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="aSu-2D-zYK"/>
+                            <constraint firstItem="XMM-kb-2Ao" firstAttribute="height" secondItem="kh9-bI-dsS" secondAttribute="height" id="jhE-tI-V2Z"/>
+                            <constraint firstItem="XMM-kb-2Ao" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" id="kRV-RL-zfL"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="handleView" destination="gD0-94-ciY" id="YqU-gO-79x"/>
+                        <outlet property="scrollView" destination="XMM-kb-2Ao" id="Ddt-gg-8tz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="340" y="389"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="left.png" width="32" height="32"/>
+    </resources>
 </document>
