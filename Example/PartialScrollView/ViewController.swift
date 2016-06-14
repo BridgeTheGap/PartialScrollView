@@ -17,14 +17,16 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tableView = UITableView(frame: self.view.bounds)
-        tableView.frame.origin.x = self.view.bounds.width
-        tableView.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
+        let effect = UIBlurEffect(style: .Dark)
+        let blurView = UIVisualEffectView(effect: effect)
+        blurView.frame = self.view.frame
+        blurView.frame.origin.x = self.view.frame.width
         
         scrollView.contentSize = CGSizeMake(self.view.bounds.width * 2.0, self.view.bounds.height)
-        scrollView.addSubview(tableView)
+        scrollView.addSubview(blurView)
+        scrollView.scrollableView = handleView
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -32,7 +34,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
     // MARK: - Scroll view
     
-    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        self.scrollView.enableGlobalScroll = scrollView.contentOffset.x >= self.view.frame.width
+    }
     
 }
 
