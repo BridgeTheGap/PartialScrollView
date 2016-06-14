@@ -2,7 +2,7 @@
   "name": "PartialScrollView",
   "version": "0.1.0",
   "summary": "A scroll view whose scroll area is customizable.",
-  "description": "PartialScrollView, like its name, allows the user to customize the scrollable area,\nwhich solves the problem of programmers who wanted a scroll view-like behavior,\nbut only for a certain part of their views.\n\nInstead of using a pan gesture recognizer for the small view, use the scroll view\nlike you normally would, but just don't forget to set the scrollable area.",
+  "description": "PartialScrollView, like its name, allows the user to customize the scrollable area,\nwhich solves the problem of programmers who wanted a scroll view-like behavior,\nbut only for a certain part of their views.\nInstead of using a pan gesture recognizer for the small view, use the scroll view\nlike you normally would, but just don't forget to set the scrollable area.",
   "homepage": "https://github.com/BridgeTheGap/PartialScrollView",
   "license": {
     "type": "MIT",

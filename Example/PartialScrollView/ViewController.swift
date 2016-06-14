@@ -18,9 +18,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         
         let tableView = UITableView(frame: self.view.bounds)
+        tableView.frame.origin.x = self.view.bounds.width
         tableView.backgroundColor = UIColor(white: 0.9, alpha: 1.0)
         
-        
+        scrollView.contentSize = CGSizeMake(self.view.bounds.width * 2.0, self.view.bounds.height)
+        scrollView.addSubview(tableView)
     }
 
     override func didReceiveMemoryWarning() {

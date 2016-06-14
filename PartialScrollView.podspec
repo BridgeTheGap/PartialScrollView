@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
 PartialScrollView, like its name, allows the user to customize the scrollable area,
 which solves the problem of programmers who wanted a scroll view-like behavior,
 but only for a certain part of their views.
-
 Instead of using a pan gesture recognizer for the small view, use the scroll view
 like you normally would, but just don't forget to set the scrollable area.
                        DESC

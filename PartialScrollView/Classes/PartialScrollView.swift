@@ -8,11 +8,11 @@
 
 import UIKit
 
-class PartialScrollView: UIScrollView {
-    var scrollArea: CGRect?
-    var enableGlobalScroll = false
+public class PartialScrollView: UIScrollView {
+    public var scrollArea: CGRect?
+    public var enableGlobalScroll = false
 
-    override func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
+    override public func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
         let relativePoint = superview!.convertPoint(point, fromView: self)
         let relativeArea = superview!.convertRect((scrollArea ?? self.bounds), fromView: self)
         if !enableGlobalScroll && !relativeArea.contains(relativePoint) {
