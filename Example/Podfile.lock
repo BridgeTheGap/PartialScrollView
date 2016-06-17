@@ -1,5 +1,5 @@
 PODS:
-  - PartialScrollView (0.1.0)
+  - PartialScrollView (0.2.0)
 
 DEPENDENCIES:
   - PartialScrollView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PartialScrollView: 4f93fa4b187b3f58dfacce1a7b6f345521a7fb42
+  PartialScrollView: 2678b2f1b07c86e1ad9967be70f9def0503a101e
 
 PODFILE CHECKSUM: 6212743910b411ceedff45fa844340c2a868ef8d
 

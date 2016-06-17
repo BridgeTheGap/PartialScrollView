@@ -11,6 +11,7 @@ import PartialScrollView
 
 class ViewController: UIViewController, UIScrollViewDelegate {
 
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var handleView: UIView!
     @IBOutlet weak var scrollView: PartialScrollView!
     
@@ -25,6 +26,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = CGSizeMake(self.view.bounds.width * 2.0, self.view.bounds.height)
         scrollView.addSubview(blurView)
         scrollView.scrollableView = handleView
+        scrollView.enableInteraction(button)
     }
     
     override func didReceiveMemoryWarning() {

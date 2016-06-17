@@ -13,15 +13,27 @@ public class PartialScrollView: UIScrollView {
     public var scrollArea: CGRect?
     public var enableGlobalScroll = false
     
+    public private(set) var interactableViews = Set([UIView]())
+    
+    public func enableInteraction(view: UIView) {
+        weak var weakView = view
+        interactableViews.insert(weakView!)
+    }
+    
     override public func hitTest(point: CGPoint, withEvent event: UIEvent?) -> UIView? {
         if let scrollableView = scrollableView {
             scrollArea = convertRect(scrollableView.frame, fromView: scrollableView.superview)
         }
         let relativePoint = superview!.convertPoint(point, fromView: self)
         let relativeArea = superview!.convertRect((scrollArea ?? bounds), fromView: self)
-        if !enableGlobalScroll && !relativeArea.contains(relativePoint) {
-            return nil
+        
+        if !enableGlobalScroll {
+            if !relativeArea.contains(relativePoint) { return nil }
+            for view in interactableViews {
+                if superview!.convertRect(view.frame, fromView: view.superview).contains(relativePoint) { return nil }
+            }
         }
+        
         return super.hitTest(point, withEvent: event)
     }
 }
